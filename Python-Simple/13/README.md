@@ -2,7 +2,7 @@
 
 <br>
 
-### input
+### input:
 first date : 2014, 7, 11
 
 <br>
