@@ -3,6 +3,12 @@ import sys
 
 def find_seq(dna,sample):
     """return number of sequences OF sample in a dna"""
+
+    #safty check
+    if (sample not in ['A', 'T', 'C', 'G']):
+        #invalid sample
+        return 0
+
     point = 0
     for i in range(len(dna)):
         if (dna[i] == sample):
@@ -12,7 +18,7 @@ def find_seq(dna,sample):
 
 
 def main():
-    user = input("Enter Dna SEQUENCE: ").strip()
+    user = input("Enter Dna SEQUENCE: ").strip().upper()
     lenght = len(user)
 
     biggest = 0
