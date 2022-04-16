@@ -13,19 +13,25 @@ if (n < 0):
     print("Number must be positive :(")
     sys.exit(1)
 
-# infinity loop because if number is big we had keep going to number equal to one
+# print first number in iutput
+print(n,end="-> ")
+
 while (True):
-    # print number each time
-    print(f"Number is {n}")
+    if (n == 1):
+        print("end")
+        sys.exit(0)
 
     # send number to even function and if number is even so we divided by 2
     # and continue this loop
     if (is_even(n)):
         n //= 2
+        print(n,end="-> ")
         continue
     # else we just multiplies it by 3 and add 1 to it
     n *= 3
     n += 1     
+    print(n,end="-> ")
+
 
 
 
