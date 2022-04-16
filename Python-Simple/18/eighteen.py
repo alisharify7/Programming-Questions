@@ -17,7 +17,7 @@ def main():
         sys.exit(0)
 
     if(user <= 0):
-        print("That's not a Positive number'")         
+        print("That's not a Positive number")         
         sys.exit(0)
     else:
         resualt = cube_number(user)
