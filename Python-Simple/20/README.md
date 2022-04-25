@@ -6,7 +6,7 @@
 
 - input: 8
 
-<br>
+
 
 - output: 36
 
