@@ -11,6 +11,8 @@ prompt: 3
 <br>
 
 output:
- * \n
- ** \n
- *** \n
+ \* \n
+ <br>
+ \** \n
+ <br>
+ \*** \n
