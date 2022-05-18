@@ -3,4 +3,4 @@
 > example 
 input : 12
 <br>
-output : 00001100
+output : 1100
