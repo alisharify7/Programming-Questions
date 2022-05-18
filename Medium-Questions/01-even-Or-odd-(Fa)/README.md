@@ -6,3 +6,8 @@
 ## مبانی برنامه سازی - پایتون
 نیمسال دوم 98-97
 هادیان - دانشگاه شریف
+
+
+-------------
+
+Write a Program That Prompt User for a Number and Print IS number Even or odd
