@@ -9,5 +9,5 @@
 
 
 -------------
-
-Write a Program That Prompt User for a Number and Print IS number Even or odd
+Write a program that asks the user for a number
+And then print to the user that number is a even or odd Number
