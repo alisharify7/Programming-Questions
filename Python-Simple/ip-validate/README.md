@@ -1,5 +1,7 @@
 # in this problem set write a program that prompt user for a ip address and validate that address is correct or not
 
+if you dont underestand ip address se this : https://en.wikipedia.org/wiki/IP_address
+
 
 > example:
 
