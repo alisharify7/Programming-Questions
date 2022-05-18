@@ -7,10 +7,15 @@
 
 ---------------------------------------------------
 Write a Program  that Prompt user for a number and print a pyramids with pyramids
+
 <br>
->input: 3
+
+> input: 3
+
 <br>
->output:
+
+> output:
+
 <br>
  \* \n
  <br>
