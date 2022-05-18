@@ -1,12 +1,12 @@
 import sys
 
-first = set(["White", "Black", "Red"])
-seccond = set(["Red", "Green"])
+first = ["White", "Black", "Red"]
+seccond = ["Red", "Green"]
 
 
 
 for i in range(len(first)):
-    temp = list(first)[i]
+    temp = first[i]
     
     if (temp in seccond):
         continue
