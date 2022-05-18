@@ -2,8 +2,9 @@
 
 
 > example:
-    input: 192.168.1.289
-    output: Invalid ip address
+
+input: 192.168.1.289
+output: Invalid ip address
 
 
 input: 192.168.1.1
