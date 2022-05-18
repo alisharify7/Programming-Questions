@@ -5,9 +5,10 @@
 نیمسال دوم 98-97
 هادیان
 
-Run python example.py
+---------------------------------------------------
+Write a Program  that Prompt user for a number and print a pyramids with pyramids
 <br>
-prompt: 3
+input: 3
 <br>
 
 output:
