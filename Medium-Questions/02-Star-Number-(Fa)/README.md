@@ -17,8 +17,8 @@ Write a Program  that Prompt user for a number and print a pyramids with pyramid
 > output:
 
 <br>
- \* \n
+ * \n
  <br>
- \** \n
+ ** \n
  <br>
- \*** \n
+ *** \n
