@@ -1,4 +1,4 @@
- برنامه ای بنویسید که با پیامی مناسب عددی را دریافت کرده و در صورتی که عدد زوج باشد و در بازه ۱
+ - برنامه ای بنویسید که با پیامی مناسب عددی را دریافت کرده و در صورتی که عدد زوج باشد و در بازه ۱
 تا ۱00 قرار داشته باشد پیغام “.Valid “و در غیر این صورت پیام “!Valid Not “را نمایش دهد.
 
 
@@ -9,7 +9,7 @@
 
 
 -------------
-Write a program that asks the user for a number
+- Write a program that asks the user for a number
 And then print to the user that number is a even or odd Number
 
 > example:
