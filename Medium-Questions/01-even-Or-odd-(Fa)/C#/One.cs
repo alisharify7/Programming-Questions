@@ -23,11 +23,11 @@ namespace ConsoleApplication1
                 // check for Even or odd Number
                 if (int_user % 2 == 0)
                 {
-                    Console.WriteLine("Its Even");
+                    Console.WriteLine("Even Number");
                 }
                 else
                 {
-                    Console.WriteLine("Its Odd");
+                    Console.WriteLine("Odd Number");
                 }
 
             }
