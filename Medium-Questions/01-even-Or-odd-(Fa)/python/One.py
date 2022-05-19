@@ -15,12 +15,13 @@ input_user = int(input("Enter Number: "))
 
 # check for numbre between 1 to 100
 if (input_user > 0 and input_user <= 100):
+    
     # pass number to is_valid function for checking
     if (is_valid(input_user)):
-        print("Even number")
+        print("Even Number")
         sys.exit(0)
     else:
-        print("Not even !")    
+        print("Odd Number")    
         sys.exit(0)
 else:
     print("input out of Range 1 to 100")
