@@ -14,7 +14,8 @@ And then print to the user that number is a even or odd Number
 
 > example:
 >> input : 2
+ <br>
 >> output: True or Even Number or 0
-<br>
+ <br>
 >> input : 3
 >> output: False or Odd Number or 1
