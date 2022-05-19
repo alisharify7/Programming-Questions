@@ -14,12 +14,12 @@ int main(void)
         // check for Number is even or odd
         if (user % 2 == 0)
         {
-            printf("it's Even Number :) ");
+            printf("Even Number :) ");
             return 0;
         }
         else
         {
-            printf("Its odd Number :) ");
+            printf("Odd Number :) ");
             return 0;
         }
     }
@@ -27,7 +27,7 @@ int main(void)
     else
     {
         printf("Invalid Number - Number must Between 1 to 100");
-        return 0;
+        return 1;
     }
 
 }
