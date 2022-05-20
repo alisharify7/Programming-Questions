@@ -9,48 +9,40 @@ namespace ConsoleApplication1
     class Program
     {
 
-        // deifnd a function that take a Number
-        // and return number on One In that Number in binary\
-         
-        static int bin_num(int number) {
-
-            int counter = 0;
- 
-            // convert int number to Binary number 
-            string binary = Convert.ToString(number, 2);
-
-            // iterate over all string
-            foreach (char one in binary)
+        // this function take a number and 
+        // print star
+        static void print_star(int number)
+        {
+            // safety check
+            if (number < 0)
             {
-                // if i element is string equal to 1
-                if(one == '1')
-                {
-                    counter++;
-                }
+                Console.Write("Error");
             }
 
-            // return Number of One in binaary
-            return counter;
+            // This for loop is for Row
+            for (int i = 1; i <= number; i++)
+            {
+                // this for loop is for print Star
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write("*");
+                }
+                // Print New Line 
+                Console.WriteLine("");
+            }
 
         }
 
+
         static void Main(string[] args)
         {
-            // Get input From User
-            Console.Write("Enter a Number: ");
-            string user = Console.ReadLine();
-            // Convert string Input to Int
-            int user_in = Int32.Parse(user);
-            
-            // Send Int value To bin_num Function to 
-            // Return Number of 1 in it
-            int answer = bin_num(user_in);
 
-            // print result
-            Console.WriteLine(answer);
+            // Test the Function
+            print_star(15);
 
 
             Console.ReadKey();
         }
+
     }
 }
