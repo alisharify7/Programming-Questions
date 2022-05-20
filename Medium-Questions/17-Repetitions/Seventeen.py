@@ -1,6 +1,5 @@
 import sys
 
-
 def find_seq(dna,sample):
     """return number of sequences OF sample in a dna"""
 
@@ -16,7 +15,6 @@ def find_seq(dna,sample):
     return point        
 
 
-
 def main():
     user = input("Enter Dna SEQUENCE: ").strip().upper()
     lenght = len(user)
@@ -30,19 +28,6 @@ def main():
 
     # print biggest number  of sequences in dna
     print(biggest)        
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 main()
