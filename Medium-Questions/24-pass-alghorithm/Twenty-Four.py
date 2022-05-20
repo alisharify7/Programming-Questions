@@ -49,5 +49,5 @@ elif total_5 > total_a:
     sys.exit(0)
 
 
-print(code)
-print(password)
+# print(code)
+# print(password)
