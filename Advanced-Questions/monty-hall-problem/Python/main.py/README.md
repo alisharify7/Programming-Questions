@@ -14,3 +14,5 @@ Whether you stick to your selection, Monty will open the two other doors. If a g
 ![Monty Hall problem](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Monty_open_door.svg/1200px-Monty_open_door.svg.png)
 ### Game Tip!
 It is recommended always to switch as there is a higher probability for the car to be behind the door you have not chosen. To understand the probabilities in this game watch [this video on YouTube](https://youtu.be/4Lb-6rxZxx0).
+
+added by: https://github.com/sprshr
