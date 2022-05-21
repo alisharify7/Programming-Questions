@@ -8,6 +8,12 @@ int main(void)
     printf("Enter a Number: ");
     scanf("%i", &user);
 
+    if (user < 1)
+    {
+        printf("Invalid input :(")
+        return 1;
+    }
+
     // this for loop is for Row
     for (int i = 1; i <= user ;i++)
     {
@@ -19,5 +25,5 @@ int main(void)
         printf("\n");
 
     }
-
+    return 0;
 }
