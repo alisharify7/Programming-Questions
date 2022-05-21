@@ -9,16 +9,17 @@ Write a program that implements a math calculator with this math operator
 
 
 
-example :
+> example :
 
-input :  2 + 56
-output : 58
+>> input :  2 + 56
+>> output : 58
 
+>> <br>
 
-input : 1000 / 2
-output : 500
+>> input : 1000 / 2
+>> output : 500
 
+>> <br>
 
-
-input : 0 / 0
-output : Error
+>> input : 0 / 0
+>> output : Error
