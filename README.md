@@ -6,8 +6,7 @@
 - In <a href='./Medium-Questions' >  Medium-Questions </a>  is Some Basic and Useful Question For Beginners to practice programming and Help you to Understand Problem Solving :) 
 
 
-
--------
+___
 
 (Fa Persian)
 ## حل بعضی از سوالات برنامه نویسی که در سطح اینترنت هست به همراه جواب
