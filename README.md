@@ -1,4 +1,4 @@
-## Solve Some Programming Question Together In Here - That Available On The Internet
+# Solve Some Programming Question Together In Here - That Available On The Internet
 ### question + code (answer)
 
 - In <a href='./Medium-Questions' > Medium-Questions </a>  is Some Basic and Useful Question For Beginners to practice programming and Help you to Understand Problem Solving :) 
@@ -12,6 +12,10 @@
 (Fa Persian)
 # حل بعضی از سوالات برنامه نویسی که در سطح اینترنت هست به همراه جواب
 ## هدف کلی من از این ریپازیتوری درست کردن یه منبع کامل از سوالات به همراه جواب هست برای تقویت -حل مسئله- افراد هست
+
+- در <a href='./Medium-Questions' > مجموعه سوالاتی هست برای افراد مبتدی تا سطح متوسط که هر سوال با توجه به هدفی که داره مطالب جدید  به برنامه نویس یاد میده
+
+
 ### سوالات بر اساس شماره بندی هستن و از سطح آسون به سخت میرن
 
  > اگر سوالی دارید که فکر می کنید به درد این ریپازیتوری میخوره طبق قواعد زیر ارسال کنید 
