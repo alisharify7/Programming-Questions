@@ -41,6 +41,7 @@ ___
 
 tree sample :
 
-                  \----\ Python \----\ Main.py ('Source code')
-Misiing Number ---|
-                  \----\ README.md
+                   _____ Python _____ Main.py ('Source code')
+
+Misiing Number --- |
+                   ____ README.md
