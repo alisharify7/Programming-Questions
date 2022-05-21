@@ -7,3 +7,6 @@
 
 The area of a triangle is defined as the total region that is enclosed by the three sides of any particular triangle. Basically, it is equal to half of the base times height, i.e. A = 1/2 × b × h.
 
+
+
+https://github.com/alisharifyy/Programming-Questions
