@@ -15,6 +15,7 @@ int main(void)
 
     float answer = (width * height) * 0.5;
 
+
     printf("Area is %f", answer);
     return 0;
 
