@@ -39,9 +39,3 @@ ___
 
 داخلش فایل اصلی کدتون رو قرار بدید و تمام ! :)
 
-tree sample :
-
-                   _____ Python _____ Main.py ('Source code')
-
-Misiing Number --- |
-                   ____ README.md
