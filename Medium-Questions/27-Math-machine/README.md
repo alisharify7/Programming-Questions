@@ -16,13 +16,20 @@ Write a program that implements a math calculator with this math operator
 <br>
 
 >> output : 58
+
 <br>
 
+___
 >> input : 1000 / 2
+
 <br>
+
 >> output : 500
 
 
+___
 >> input : 0 / 0
+
 <br>
+
 >> output : Error
