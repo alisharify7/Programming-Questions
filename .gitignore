@@ -2,20 +2,21 @@
 
 # dependencies
 node_modules
-/node_modules
-/.pnp
+target
+node_modules
+.pnp
 .pnp.js
 
 # testing
-/coverage
+coverage
 
 # next.js
-/.next/*
-/out/
+.next/*
+out
 .next
 
 # production
-/build
+build
 
 # misc
 .DS_Store
@@ -37,7 +38,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-
-
-# Contentlayer
-.contentlayer
