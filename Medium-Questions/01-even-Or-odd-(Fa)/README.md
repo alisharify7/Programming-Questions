@@ -8,12 +8,12 @@
 > مثال:
 >> ورودی : 2
 >> <br>
->> خروجی : True or Even Number or 0
+>> خروجی  :  'True' or 'Even Number' or '0' or 'valid'
 >> <br>
 >> <br>
 >> ورودی : 3
 >> <br>
->> خروجی: False or Odd Number or 1
+>> خروجی: 'False' or 'Odd Number' or '1' or 'not valid'
 
 
 
@@ -24,13 +24,12 @@ And then print to the user that number is a even or odd Number
 > example:
 >> input : 2
 >> <br>
->> output: True or Even Number or 0
+>> output: 'True' or 'Even Number' or '0' or 'valid'
 >> <br>
 >> <br>
 >> input : 3
 >> <br>
->> output: False or Odd Number or 1
-
+>> output: 'False' or 'Odd Number' or '1' or 'not valid'
 
 
 https://github.com/alisharifyy/Programming-Questions
