@@ -4,3 +4,7 @@
 >>input : 12
 >> <br>
 >>output : 1100
+
+
+
+see https://en.wikipedia.org/wiki/Binary_code for understanding binary Number
