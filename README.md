@@ -13,6 +13,8 @@
 
       git pull https://github.com/alisharifyy/Programming-Questions.git
 
+see other git commands at : https://github.com/joshnh/Git-Commands
+
 ___
 
 (Fa Persian)
