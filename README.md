@@ -5,6 +5,12 @@
 
 - In <a href='./Medium-Questions' >  Medium-Questions </a>  is Some Basic and Useful Question For Beginners to practice programming and Help you to Understand Problem Solving :) 
 
+How to clone :
+      
+      git clone https://github.com/alisharifyy/Programming-Questions.git
+     
+For get updates from repository:
+      git pull https://github.com/alisharifyy/Programming-Questions.git
 
 ___
 
