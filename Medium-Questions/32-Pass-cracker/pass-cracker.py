@@ -2,7 +2,6 @@ import sys
 
 # solve this question with list in python
 
-
 def find_pass(number):
     # convert number to string to be can access to each element in it!
     # and with zfill function we force string to be 5 element 
@@ -17,11 +16,8 @@ def find_pass(number):
     ( (int(number[1]) + int(number[2]) ) == 10 ) and 
     (int(number[0]) + int(number[1]) + int(number[2]) + int(number[3]) + int(number[4]) == 30) ):
         return True
-
     return False    
     
-
-
 
 # from here we send from 9999 to 99_999 to find pass function
 for num in range(9999,100000):
@@ -29,6 +25,4 @@ for num in range(9999,100000):
     if (find_pass(num)):
         print(num)
         sys.exit(0)    
-
-
 
