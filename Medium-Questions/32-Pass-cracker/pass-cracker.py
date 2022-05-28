@@ -23,8 +23,8 @@ def find_pass(number):
 
 
 
-# from here we send from 0 to 99_999 to find pass function
-for num in range(0,100000):
+# from here we send from 9999 to 99_999 to find pass function
+for num in range(9999,100000):
     # if find pass return true so we found passcode
     if (find_pass(num)):
         print(num)
