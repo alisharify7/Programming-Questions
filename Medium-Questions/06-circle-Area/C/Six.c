@@ -10,7 +10,7 @@ int main(void)
     scanf("%i",&r);
 
     // calculate area
-    float n = ( (2 * pi) * r);
+    float n = ( (pi) * (r ** 2));
 
     printf("circle of circle is %f ",n);
     return 0;
