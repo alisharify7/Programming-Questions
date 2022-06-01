@@ -18,7 +18,7 @@ namespace six
 
             // calculate result 
             // c = 2pr
-            double answer = (3.1415 * 2) * r;
+            double answer = (3.1415 * (r ** 2) );
             Console.WriteLine("Answer is {0}", answer);
 
             Console.ReadKey();
