@@ -10,7 +10,7 @@ r = float(input("Enter r: "))
 
 p = math.pi
 
-answer = (2 * p)* r
+answer = p * (r ** 2)
 
 print("Area: ",answer)
 
