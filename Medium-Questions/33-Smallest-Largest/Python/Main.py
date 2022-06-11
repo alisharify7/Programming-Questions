@@ -1,14 +1,5 @@
 import sys
 
-
-
-def find_smallest(number):
-    pass
-
-def find_largest(number):
-    pass
-
-
 def main():
     try:
         number = int(input("Enter a Number: "))
@@ -16,8 +7,8 @@ def main():
         print("Invalid Input ")
         sys.exit(1)
 
-    find()
-
+    print(f"Largest Number is {max(str(number))}")
+    print(f"Smallest Number is {min(str(number))}")
 
 
 
