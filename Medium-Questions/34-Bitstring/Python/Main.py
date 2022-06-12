@@ -1,5 +1,6 @@
 import sys
 
+
 try:
     n = int(input("Enter n: "))
 except ValueError:
@@ -10,3 +11,5 @@ if n >=1 and n <= 106:
     print(2**n)
 else:
     print("Oyt of Range")
+
+
