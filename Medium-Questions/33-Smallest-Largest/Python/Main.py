@@ -11,6 +11,5 @@ def main():
     print(f"Smallest Number is {min(str(number))}")
 
 
-
 if __name__ == "__main__":
     main()
