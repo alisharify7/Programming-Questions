@@ -8,25 +8,14 @@
 </head>
 <body>
     
+    <h1 id="answer" ></h1>
+    
     <script>
-
-    // this function Specifies is a number even or odd
-    function even(number)
-    {
-        if (number % 2 == 0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
-
+    let answer_html = document.getElementById("answer");
     let r = parseFloat(prompt("Enter R: "));
     let answer = Math.PI * (r ** 2)
     console.log(answer)
+    answer.innerHTML = answer_html;
 
     </script>
 </body>
