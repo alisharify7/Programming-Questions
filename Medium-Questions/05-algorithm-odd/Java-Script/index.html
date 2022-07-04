@@ -7,53 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <script>
+    <h2 id="answer">answer is here</h2>
 
-    // this function Specifies is a number even or odd
-    function even(number)
-    {
-        if (number % 2 == 0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
+    <a href="https://github.com/alisharifyy/Programming-Questions">
+        https://github.com/alisharifyy/Programming-Questions
+    </a>
 
-
-    let user = parseInt(prompt("Enter a Number: "));
-    console.log(user);
-
-
-    while(true)
-    {
-        if (user < 0)
-        {
-            break;
-        }
-
-        if (user == 1)
-        {
-            console.log("User input is One");
-            break;
-        }
-
-        else if(even(user))
-        {
-            user = user / 2;
-            console.log(user);
-        }
-
-        else
-        {
-            user = (user * 3) + 1;
-            console.log(user);
-        }
-    }
-
-    </script>
+    <script src="./app.js"></script>
 </body>
 </html>

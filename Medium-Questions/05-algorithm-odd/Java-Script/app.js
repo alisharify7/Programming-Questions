@@ -11,8 +11,8 @@ function even(number)
     }
 }
 
-
-let user = ParseInt(prompt("Enter a Number: "));
+let answer = document.getElementById("answer");
+let user = prompt("Enter a Number: ");
 console.log(user);
 
 
@@ -20,24 +20,28 @@ while(true)
 {
     if (user < 0)
     {
+        answer.innerHTML = "Number is one DOne";
         break;
     }
-
+    
     if (user == 1)
     {
+        answer.innerHTML += "<br/>" + "User input is One";
         console.log("User input is One");
         break;
     }
-
+    
     else if(even(user))
     {
         user = user / 2;
+        answer.innerHTML += `<br/>  ${user}` ;
         console.log(user);
     }
-
+    
     else
     {
         user = (user * 3) + 1;
+        answer.innerHTML += `<br/>  ${user}` ;
         console.log(user);
     }
 }
