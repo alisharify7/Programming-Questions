@@ -12,6 +12,10 @@
     if (isset($_POST["number"]))
     {
         $number = number_format($_POST["number"]);
+        if ($number > 100 || $number < 0)
+        {
+            exit("Number not between1 to 100");
+        }
         if ($number % 2 == 0)
         {
             echo("<h1> Even Number </h1>");
