@@ -6,8 +6,8 @@ example:
 Enter year: 2021
 Enter Month: 5
 
-
-      May 2021
+---
+May 2021
 Mo Tu We Th Fr Sa Su
 
 1  2
