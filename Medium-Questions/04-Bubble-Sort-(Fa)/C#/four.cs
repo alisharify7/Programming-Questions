@@ -13,7 +13,7 @@ namespace bubble
         static void out_arr(int[] array_input)
         {
 
-            for (int i =0; i < array_input.Length; i++)
+            for (int i =0; i < (array_input.Length - 1); i++)
             {
                 Console.Write(array_input[i] + " ");
             }
