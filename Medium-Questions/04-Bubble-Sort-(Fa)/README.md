@@ -4,7 +4,7 @@
 <br>
 # مبانی برنامه سازی - پایتون
 نیمسال دوم 98-97
-هادیان
+هادیان دانشگاه شریف
 
 
 https://github.com/alisharifyy/Programming-Questions
