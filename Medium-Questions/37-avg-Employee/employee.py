@@ -2,6 +2,7 @@ import sys
 from tabulate import tabulate
 
 def get_int(msg):
+    """Return only int input otherwise continue loop"""
     while True:
         n = input(msg).strip()
         try:
