@@ -12,6 +12,30 @@ def get_int(msg):
         else:
             return n
 
+            
+def get_pay(msg):
+    """Return only pay number between 1-9 otherwise continue loop"""
+    while True:
+        n = input(msg).strip()
+        try:
+            n = int(n)
+            if 0 < n < 10:
+                return n
+            else:
+                continue
+        except ValueError:
+            continue
+        else:
+            return n
+
+def get_sex(msg):
+    """Return only sex type of employees [0 , 1] otherwise continue loop"""
+    while True:
+        n = input(msg).strip()
+        if n in ["1", "0"]:
+            return n
+        else:
+            continue
 
 def get_employees():
     """
@@ -26,13 +50,9 @@ def get_employees():
                 return employees
         counter += 1
         name = input(f"Enter Employee {counter} Name: ").strip() 
-        sex = input(f"Enter Employee {counter} sex (1=man, 0=woman): ").strip()
-        # make sure user enter valid gender type
-        if sex not in ["1", "0"]:
-            sys.exit("Invalid input!")
-
+        sex = get_sex(f"Enter Employee {counter} sex (1=man, 0=woman): ").strip()
         year = input(f"Enter Employee {counter} year: ").strip()
-        pay = get_int(f"Enter Employee {counter} pay: ")  
+        pay = get_pay(f"Enter Employee {counter} pay: ")  
         
         employe = {
             "name": name,
