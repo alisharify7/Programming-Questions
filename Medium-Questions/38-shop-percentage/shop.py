@@ -16,10 +16,14 @@ def get_product():
         this function take and product information and return in 
         format of dict {}
     """
-    price = get_int("Enter Product price: ")
-    degree = get_int("Enter Product degree: ")
-    return {"price" : price, "degree": degree} 
-
+    while True:
+        price = get_int("Enter Product price: ")
+        degree = get_int("Enter Product degree: ")
+        if degree in [1,2,3,4]:
+            return {"price" : price, "degree": degree} 
+        else:
+            print("Invalid input. try again")
+            continue
 
 def process_procuts(info):
     """
