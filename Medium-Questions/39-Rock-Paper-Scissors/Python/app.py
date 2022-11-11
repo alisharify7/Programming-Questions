@@ -32,7 +32,7 @@ def main():
     user_selected = []
     bot_selected = []
 
-    for each in range(3):
+    for each in range(5):
         # get user input
         select_user = get_valid_option(f"Select Your {each + 1} option: ")
         user_selected.append(select_user)
