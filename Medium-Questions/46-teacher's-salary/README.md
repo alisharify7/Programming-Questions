@@ -3,8 +3,8 @@
 
 
 سوال:
-<img src="./Doc/question.png">
+<img src="./doc/question.png">
 
 
 خروجی:
-<img src="./Doc/answer.png">
+<img src="./doc/answer.png">
