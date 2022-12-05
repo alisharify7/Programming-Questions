@@ -47,9 +47,9 @@ class number:
 
 def main():
     n = number()
-    # print(n.all_2digit_equal())
-    # print(n.all_3digit_middle_zero())
-    # print(n.first_second_second())
+    print(n.all_2digit_equal())
+    print(n.all_3digit_middle_zero())
+    print(n.first_second_second())
     print(n.mirror_number())
 
 
