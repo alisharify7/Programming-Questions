@@ -9,13 +9,23 @@ def factorial(n):
 
 
 def main():
-    n = input("Enter a Number:")
+    f = input("Enter First Number:")
     try:
-        n = int(n)
+        f = int(f)
+    except ValueError:
+        sys.exit("Input Must be Integer")
+    
+    s = input("Enter Second  Number:")
+    try:
+        s = int(s)
     except ValueError:
         sys.exit("Input Must be Integer")
 
-    print(f"Answer of 1 / {factorial(n)} ==> {1/factorial(n)}")
+    result = 0
+    for i in range(f):
+        result += s
+
+    print(result)
 
 
 if __name__ == '__main__':
