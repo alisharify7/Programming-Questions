@@ -5,7 +5,7 @@ import os, sys
 
 def main():
     for x in range(1,10):
-        if int(f"137486{x}225") % 3 == 0:
+        if int(f"137486{x}225") % 7 == 0:
             print(x, end=" - ")
 
 if __name__ == "__main__":
