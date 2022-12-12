@@ -44,7 +44,7 @@ def main():
     # that give us 3.5 and we round it to up and we got 4
      
     elif len(numbers) % 2 != 0:
-        print(round(len(numbers) / 2))
+        # because in array we count from 0 we should increment 1 from result
         print(numbers[round(len(numbers) / 2) - 1])
 
 
