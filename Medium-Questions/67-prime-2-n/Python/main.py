@@ -39,7 +39,7 @@ def main():
     
 
     # print rsuallt
-    print(f"Number \33[32m{target_number}\33[0m have \33[32m{len_number}\33[0m maqsom")
+    print(f"Number \33[32m{target_number}\33[0m have \33[32m{len_number}\33[0m factors")
 
 
 if __name__ == "__main__":
