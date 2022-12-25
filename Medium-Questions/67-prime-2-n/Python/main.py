@@ -1,7 +1,7 @@
 import os,sys
 
 
-def get_maqsom(n):
+def get_factor(n):
     """
         this function take an number and factors of that number
     """
