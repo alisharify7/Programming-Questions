@@ -29,7 +29,7 @@ def main():
     for each in range(1, number + 1):
         # get each number factors
         n_maq = get_maqsom(each)
-        # print factor of each number in from of it
+        # print factor of each number 
         print(f"{each}: {n_maq}")
 
         # keep track of number that have biggest factors
