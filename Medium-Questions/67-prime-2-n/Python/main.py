@@ -9,6 +9,13 @@ def get_maqsom(n):
     for i in range(1, int(round(n / 2)+ 1)):
         if n % i == 0:
             maqsom.append(i)
+
+    if 1 not in maqsom:
+        maqsom.append(1)
+    
+    if n not in maqsom:
+        maqsom.append(n)
+    
     return maqsom
 
 
