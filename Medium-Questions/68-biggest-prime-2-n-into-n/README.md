@@ -1,5 +1,7 @@
 # کارشناسی نرم افزار روزانه یزد
 
+# probelm and answer should be added to docs
+
 
 
 سوال: 
