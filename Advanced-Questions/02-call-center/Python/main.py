@@ -2,16 +2,20 @@ import os, sys
 from tabulate import tabulate
 
 # each pules => 46
-# 4% maliat for all  call
+# 4% tax for all call's
 # 23-8 am 50% 
 # day 7 call is 75% off
 
 def get_time(m):
+    """ 
+        this function get time by defination role
+        0 - 23
+    """
     while True:
         x = input(m)
         try:
             x = int(x)
-            # for  getting vlaid time  
+            # for getting vlaid time  
             if 0 <= x <= 23:
                 pass
             else:
