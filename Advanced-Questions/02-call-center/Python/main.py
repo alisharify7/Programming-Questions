@@ -27,6 +27,7 @@ def get_time(m):
 
 
 def get_int(m):
+    """ this function only accept numbers ! """
     while True:
         x = input(m)
         try:
@@ -38,6 +39,7 @@ def get_int(m):
 
 
 def get_day(m):
+    """ this function only accept number that between 0 -7 day of the week  """
     while True:
         x = input(m)
         try:
@@ -55,6 +57,7 @@ def get_day(m):
 
 
 def gete_users():
+    """ this function take users and replace them in structure like json response  """
     x = input("Enter Number Of Users: ")
     try:
         x = int(x)
@@ -74,12 +77,9 @@ def gete_users():
     return users
 
 
-def get_4_percetage(n):
-    return 4 * 100 / n
-
 
 def calculate_price(users):
-    
+    """ this function calculate price of each call """    
     for each in users:
         # check time and date
         each["price"] = (each["pules"] * 46)
@@ -97,6 +97,8 @@ def calculate_price(users):
         each["price"] = each["price"] + (4 * each["price"] / 100)
 
     return users
+
+
 def main():
     users = gete_users()
     prices = calculate_price(users)
