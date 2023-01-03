@@ -25,7 +25,7 @@ def main():
     target_number = 0
     len_number = 0
 
-    # iterate over 1 to n
+    # iterate from 1 to n
     for each in range(1, number + 1):
         # get each number factors
         n_maq = get_factor(each)
