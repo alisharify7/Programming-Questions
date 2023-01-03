@@ -3,7 +3,7 @@ import os,sys
 
 def get_factor(n):
     """
-        this function take an number and factors of that number
+        this function take an number and return factors of that number
     """
     maqsom = []
     for i in range(1, int(round(n / 2)+ 1)):
