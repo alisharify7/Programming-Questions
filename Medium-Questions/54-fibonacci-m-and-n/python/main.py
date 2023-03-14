@@ -13,6 +13,8 @@ def fibonacci(m, n):
         c =  a + b
         a,b = b ,c
         result.append(c)
+        if c > m+n:
+            break
     
     if m in result:
         index = result.index(m)
