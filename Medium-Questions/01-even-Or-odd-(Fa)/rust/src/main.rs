@@ -1,11 +1,11 @@
 use std::io;
 fn main() {
     let mut input = String::new();
-    println!("Inter your number: ");
+    println!("Enter your number: ");
 
     io::stdin().read_line(&mut input).expect("Try Again!");
 
-    let input: u32 = input.trim().parse().expect("Inter an number between 1-100: ");
+    let input: u32 = input.trim().parse().expect("Enter an number between 1-100: ");
 
     let res:&'static str = validtion_number(input);
 
