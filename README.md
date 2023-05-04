@@ -1,3 +1,8 @@
+<p>
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/alisharify7/Programming-Questions">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/alisharify7/Programming-Questions">
+</p>
+
 (en English)
 
 ## Solve Some Programming Question Together In Here - That Available On The Internet
