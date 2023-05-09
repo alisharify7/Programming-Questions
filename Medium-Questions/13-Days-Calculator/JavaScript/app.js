@@ -9,7 +9,7 @@ let ans = Math.abs(date2 - date1);
 ans /= 1000;
 // convert to minute
 ans /= 60;
-// convert to poour
+// convert to Hour
 ans /= 60;
 
 console.log(`The Delta Between To date is ${ans} Hour`);
