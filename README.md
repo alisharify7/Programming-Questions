@@ -5,20 +5,20 @@
 
 (en English)
 
-## Solve Some Programming Question Together In Here - That Available On The Internet
+## Solve Some Programming Questions Together In Here - That Available On The Internet
 ### question + code (answer)
 
-- In <a href='./Medium-Questions' >  Medium-Questions </a>  is Some Basic and Useful Question For Beginners to practice programming and Help you to Understand Problem Solving :) 
+- In <a href='./Medium-Questions' >  Medium-Questions </a>  are Some Basic and Useful Question For Beginners to practice programming and Help you to Understand Problem-Solving :) 
 
 + How to clone :
       
-      git clone https://github.com/alisharifyy/Programming-Questions.git
+      git clone https://github.com/alisharify7/Programming-Questions.git
      
-+ For get updates from repository:
++ For get updates from the repository:
 
-      git pull https://github.com/alisharifyy/Programming-Questions.git
+      git pull https://github.com/alisharify7/Programming-Questions.git
 
-see other git commands at : https://github.com/joshnh/Git-Commands
+see other git commands at: https://github.com/joshnh/Git-Commands
 
 ___
 
