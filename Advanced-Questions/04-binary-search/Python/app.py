@@ -2,18 +2,18 @@ import time
 
 
 global steps
-steps = 0
+steps:int = 0
 
 print("[G] Generating List ")
-test_arr =  [x for x in range(1,1_00_000_000+1)]
+test_arr:list =  [x for x in range(1,1_00_000_000+1)]
 print("[EG] List generated successfully")
 
 
-def bin_search(arr, tar, end, start=0):
+def bin_search(arr:list, tar:int, end:int, start:int=0):
     """ 
         arr = array for search
         tar = target number for search
-        start = location for start
+        start = location for the start
         end = end location of search <len(arr)>
     """
     global steps
@@ -32,7 +32,7 @@ def bin_search(arr, tar, end, start=0):
 
 def linear_search(arr, tar):
     start = time.time() * 1000
-    for index,value in enumerate(arr):
+    for index, value in enumerate(arr):
         if value == tar:
             end=(time.time() * 1000)
             return f"Found {value} Using linear algorithm, in {index+1} steps, {end - start} ms"
