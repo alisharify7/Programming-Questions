@@ -1,6 +1,10 @@
 import os, sys
-from tabulate import tabulate
+try:
+    from tabulate import tabulate
+except ImportError:
+    raise ImportError("tabulate lib is not installed!\n install it with:\n\tpip install tabulate")
 
+    
 # each pules => 46
 # 4% tax for all call's
 # 23-8 am 50% 
