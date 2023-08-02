@@ -92,8 +92,7 @@ def calculate_price(users):
         if 0 <= each["time"] <= 8:
             each["price"] = each["price"] - (50  * each["price"] / 100  )
 
-        # calculate maliat
-        # 4 %
+        # calculate tax -> 4 %
         each["price"] = each["price"] + (4 * each["price"] / 100)
 
     return users
