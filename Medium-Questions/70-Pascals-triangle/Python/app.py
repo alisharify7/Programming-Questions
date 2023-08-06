@@ -18,34 +18,12 @@ def getBaseTriangle(size) -> list:
 
 
 
-def makeThisLevel(plevel, l):
-    global data
-    def calculate_before_stage(s,e):
-        response = []
-        innerlist = data[s:n]
-
-        is_sum = True
-        value = None
-        
-        for index, value in enumerate(innerlist):
-            try:
-                v = (value + each[index+1])
-                response.append(v)
-            except IndexError:
-                continue
-        return response 
-
-
-    
-    if plevel <= 1:
-        print("retrun it self")
-        return l
-    
-    p = data[plevel]
-    middle = len(p) // 2
-    
-
-    return None
+def makeThisLevel(level):
+    response = str(11 ** level)
+    temp = []
+    for each in response:
+        temp.append(each)
+    return temp
 
 
 
@@ -56,13 +34,15 @@ def main():
 
     x = int(input("level: "))
     plevel = 0
-    for each in range(1, x+1):
-        n = (getBaseTriangle(each))
-        n = makeThisLevel(plevel, n)
-        data.append(n)
-        plevel += 1
-
-    print(data)
+    for each in range(x):
+        data.append(makeThisLevel(each))
+    
+    max_len = len(data[-1])
+    for each in data:
+        for j in each:
+            space = max_len - len(each)
+            print(" " * (space //2), j, " " * (space //2), end="")
+        print("")
 
 
 
