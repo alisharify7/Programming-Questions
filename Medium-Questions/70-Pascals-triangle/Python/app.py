@@ -38,10 +38,10 @@ def main():
         data.append(makeThisLevel(each))
     
     max_len = len(data[-1])
-    for each in data:
-        for j in each:
-            space = max_len - len(each)
-            print(" " * (space //2), j, " " * (space //2), end="")
+    for i in data:
+        for j in i:
+            space = max_len - len(i)
+            print(" " * (space // 2), j, " " * (space //2), end="")
         print("")
 
 
