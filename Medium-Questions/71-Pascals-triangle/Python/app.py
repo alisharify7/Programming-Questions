@@ -50,6 +50,9 @@ def main():
         print(" " * ((space // 2 +1 )), "".join(i), " " * (space //2 +1), end="")
         print("")
 
+        # normal print
+    # for each in data:
+    #     print(" ".join(each))
 
 
 
