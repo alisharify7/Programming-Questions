@@ -32,16 +32,22 @@ def main():
     global data
     data = []
 
-    x = int(input("level: "))
+    while True:
+        try:
+            x = int(input("level: "))
+        except ValueError:
+            continue
+        else:
+            break
     plevel = 0
     for each in range(x):
         data.append(makeThisLevel(each))
     
     max_len = len(data[-1])
-    for i in data:
-        for j in i:
-            space = max_len - len(i)
-            print(" " * (space // 2), j, " " * (space //2), end="")
+    for index, i in enumerate(data):
+        space = max_len - len(i)
+        print(f"[{index}]", end=" ")
+        print(" " * ((space // 2 +1 )), "".join(i), " " * (space //2 +1), end="")
         print("")
 
 
