@@ -2,10 +2,8 @@ import os
 import sys
 import math
 
+
 class EquationTwo:
-
-
-
     def __init__(self, a, b, c):
         self.a = a
         self.b = b
@@ -17,6 +15,7 @@ class EquationTwo:
         self.delta = float((self._b**2)-4*(self._a)*(self._c))
         return self.delta
 
+
     def check_delta(self) -> int:
         """ this method return number of answers """
         if self.delta == 0:
@@ -25,16 +24,19 @@ class EquationTwo:
             return 2
         else:
             return 0
-    
+
+
     def calculate_answer(self):
         # -b - sqrt(delta) / 2a
         # -b + sqrt(delta) / 2a
 
         return [ ((-(self._b) - math.sqrt(self.delta))/2*self._a), (-(self._b) + math.sqrt(self.delta))/2*self._a ]
 
+
     @property
     def a(self):
         return a
+
 
     @a.setter
     def set_a(self, value):
@@ -43,9 +45,12 @@ class EquationTwo:
             sys.exit(1)
         self._a = value
 
+
+
     @property
     def b(self):
         return b
+
 
 
     @b.setter
