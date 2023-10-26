@@ -1,79 +1,73 @@
-import os 
+import os
 import sys
 import math
 
 
 class EquationTwo:
-    def __init__(self, a, b, c):
-        self.a = a
-        self.b = b
-        self.c = c
+    def __init__(self):
+        self.values = {"a": 0, "b": 0, "c": 0, "delta": 0, "answer": 0}
 
+    def get_a_b_c(self):
+        """This Method Get a,b,c for user"""
 
-    def calculate_delta(self) -> float:
-        # delta = b**2-4ac
-        self.delta = float((self._b**2)-4*(self._a)*(self._c))
-        return self.delta
+        def get_float(message: str) -> int:
+            """Get Integer Value From user
+            Only Int"""
+            while True:
+                x = input(message)
+                try:
+                    x = float(x)
+                    if x >= -100 and x <= 100:  # −100≤a,b,c≤100
+                        return x
+                    else:
+                        continue
+                except ValueError:
+                    print("Invalid Value :(\n")
+                    continue
 
+        for i in ["a", "b", "c"]:
+            self.values[i] = get_float(f"Enter {i}:")
 
-    def check_delta(self) -> int:
-        """ this method return number of answers """
-        if self.delta == 0:
-            return 1
-        elif self.delta > 0:
-            return 2
+    def calculateDelta(self):
+        """
+        delta = (b**2)-(4*a*c)
+        b^2-4ac
+        """
+        a, b, c = self.values["a"], self.values["b"], self.values["c"]
+        if a != 0 and b != 0:
+            self.values["delta"] = (b ** 2) - (4 * a * c)
         else:
-            return 0
-
-
-    def calculate_answer(self):
-        # -b - sqrt(delta) / 2a
-        # -b + sqrt(delta) / 2a
-
-        return [ ((-(self._b) - math.sqrt(self.delta))/2*self._a), (-(self._b) + math.sqrt(self.delta))/2*self._a ]
-
-
-    @property
-    def a(self):
-        return a
-
-
-    @a.setter
-    def set_a(self, value):
-        if not(value != 0):
             print("IMPOSSIBLE")
-            sys.exit(1)
-        self._a = value
+            sys.exit(0)
 
+    def print_answer(self):
+        a, b, c, delta = self.values["a"], self.values["b"], self.values["c"], self.values["delta"]
+        print(f"Delta: {delta}")
+        if delta > 0:
+            """
+            -(b)+(delta)**0.5/2a
+            -(b)-(delta)**0.5/2a
+            """
+            x1 = (-b + (delta ** 0.5)) / (2 * a)
+            x2 = (-b - (delta ** 0.5)) / (2 * a)
 
-
-    @property
-    def b(self):
-        return b
-
-
-
-    @b.setter
-    def set_b(self, value):
-        if not(value != 0):
+            print(f"X1: {round(x1, 3)}")
+            print(f"X2: {round(x2, 3)}")
+            sys.exit(0)
+        elif delta == 0:
+            x = -b / (2 * a)
+            print(f"X: {round(x, 3)}")
+            sys.exit(0)
+        else:
             print("IMPOSSIBLE")
-            sys.exit(1)
-        self._b = value
-
-        
-    @property
-    def c(self):
-        return c
-
-    @a.setter
-    def set_a_value(self, value):
-        if not (a != 0):
-            raise ValueError("IMPOSIBLE a cannot be 0")
-
+            sys.exit(0)
 
 
 def main():
-    EquationTwo(a=0, b=0, c=0)
+    e = EquationTwo()
+    e.get_a_b_c()
+    e.calculateDelta()
+    e.print_answer()
 
 
 if __name__ == "__main__":
