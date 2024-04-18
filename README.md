@@ -3,19 +3,19 @@
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/alisharify7/Programming-Questions">
 </p>
 
+<a href="https://www.coffeete.ir/alisharify7">Donate/Support [Optional]</a>
+
+
 (en English)
 
 ## Solve Some Programming Questions Together In Here - That Available On The Internet
 ### question + code (answer)
 
-- In <a href='./Medium-Questions' >  Medium-Questions </a>  are Some Basic and Useful Question For Beginners to practice programming and Help you to Understand Problem-Solving :) 
+- In <a href='./Medium-Questions' >  Medium-Questions </a>  are Some Basic and Useful questions for Beginners to practice programming and Help you to Understand Problem-Solving :) 
 
 + How to clone :
       
       git clone https://github.com/alisharify7/Programming-Questions.git
-     
-+ For get updates from the repository:
-
       git pull https://github.com/alisharify7/Programming-Questions.git
 
 see other git commands at: https://github.com/joshnh/Git-Commands
