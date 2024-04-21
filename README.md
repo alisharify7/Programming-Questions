@@ -4,7 +4,7 @@
 </p>
 
 <a href="https://www.coffeete.ir/alisharify7">Donate/Support [Optional]</a>
-
+<a href="https://github.com/alisharify7/Python-Algorithms">see also ALgorithms Repo</a>
 
 (en English)
 
