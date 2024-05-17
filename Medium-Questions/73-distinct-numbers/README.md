@@ -9,5 +9,4 @@ Print one integers: the number of distinct values.
 https://cses.fi/problemset/task/1621
 
 
-
 <img src="./doc/quiz.png">
