@@ -23,6 +23,9 @@ def main():
         numbers[index] = int(value)
 
     n = get_int()
+    if n > 7 or n < 1:
+        sys.exit("invalid number, n must between 1 and 7")
+    
     
     index = numbers.index(n)
     len_before = len(numbers)
