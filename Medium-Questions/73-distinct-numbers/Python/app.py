@@ -3,8 +3,10 @@ import sys
 """
 1 <= n <= 2.10^5
 1 <= x_i <= 10^9
-
 """
+
+numbers = list((int, input().split()))
+
 
 def main():
     n = int(input("enter n:"))
