@@ -28,7 +28,7 @@ D.D.D
 
 def main():
     n = int(input(""))
-    if n > 30 or n < 3:
+    if n > 20 or n < 3:
         sys.exit("Invalid n")
 
     M_CHAR = (n * 2) - 1
