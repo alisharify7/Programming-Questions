@@ -29,9 +29,9 @@ def main():
     
     index = numbers.index(n)
     len_before = len(numbers)
-    numbers = numbers[:index]
-
-    print(len_before-len(numbers))
+    numbers = numbers[:index-1]
+    
+    print((len_before-len(numbers))-1)
 
 
 if __name__ == '__main__':
