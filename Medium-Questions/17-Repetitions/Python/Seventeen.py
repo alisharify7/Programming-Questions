@@ -1,33 +1,31 @@
-import sys
+def max_frequency(chars: str) -> tuple:
+    """ This function returns the element that has the most repetitions in the DNA strand """
+    prevous_max = 0
+    current_max = 0
+    max_char = ""
+    A = len(chars) - 1
+    i = 0
 
-def find_seq(dna,sample):
-    """return number of sequences OF sample in a dna"""
+    while i < A:
+        j = i
+        current_max = 0 
 
-    #safty check
-    if (sample not in ['A', 'T', 'C', 'G']):
-        #invalid sample
-        return 0
+        while A >= j and chars[j] == chars[i]:
+            current_max += 1
+            j += 1
 
-    point = 0
-    for i in range(len(dna)):
-        if (dna[i] == sample):
-            point += 1
-    return point        
+        if current_max >= prevous_max:
+            prevous_max = current_max
+            max_char = chars[i]
+
+        i += 1
+    return max_char, prevous_max
 
 
 def main():
-    user = input("Enter Dna SEQUENCE: ").strip().upper()
-    lenght = len(user)
+    chars = "aaabbbaaabbbbbbbbaaaaaaaaaaababababababababbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    r = max_frequency(chars=chars)
+    print(r)
 
-    biggest = 0
-    for i in range(lenght):
-        temp = find_seq(sample = user[i],dna = user)
-        
-        if (temp > biggest):
-            biggest = temp
-
-    # print biggest number  of sequences in dna
-    print(biggest)        
-   
-
-main()
+if __name__ == "__main__":
+    main()
